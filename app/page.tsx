@@ -1,21 +1,18 @@
-export default function Home() {
-  return (
-    <main style={{padding: "40px", textAlign: "center"}}>
-      <h1>CardZone India</h1>
-      <p>Welcome to CardZone.</p>
-
-      <button
-        style={{
-          padding: "12px 20px",
-          background: "#000",
-          color: "#fff",
-          border: "none",
-          borderRadius: "8px",
-          cursor: "pointer"
-        }}
-      >
-        Get Started
-      </button>
-    </main>
-  );
-}
+const products = [
+  { name: "Visa Gift Card", price: "From ₹500" },
+  { name: "Mastercard Gift Card", price: "From ₹500" },
+  { name: "American Express Gift Card", price: "From ₹1000" },
+  { name: "Amazon Gift Card", price: "From ₹100" },
+  { name: "Google Play Gift Card", price: "From ₹100" },
+  { name: "Apple Gift Card", price: "From ₹1000" },
+  { name: "Steam Gift Card", price: "From ₹250" },
+  { name: "Xbox Gift Card", price: "From ₹500" },
+  { name: "PlayStation Gift Card", price: "From ₹500" },
+  { name: "Nintendo eShop Card", price: "From ₹1000" },
+  { name: "Netflix Gift Card", price: "From ₹500" },
+  { name: "Spotify Gift Card", price: "From ₹119" },
+  { name: "Razer Gold", price: "From ₹250" },
+  { name: "Garena Shells", price: "From ₹100" },
+  { name: "Free Fire Diamonds", price: "From ₹80" },
+  { name: "BGMI UC", price: "From ₹75" },
+];
